@@ -27,15 +27,19 @@ $code-block
 
 $line-numbers
   color: #666
-  font-size: 0.85em
+  font-size: 1em
 
 .article-entry
   pre, code
     font-family: font-mono
   code
-    background: color-background
+    background: #e3e3e3
+    color: #666
+    border-radius: 3px
+    border-width 1px
+    border-color: #fff
     text-shadow: 0 1px #fff
-    padding: 0 0.3em
+    padding: 0.1em 0.3em
   pre
     @extend $code-block
     code
@@ -51,6 +55,8 @@ $line-numbers
     table
       margin: 0
       width: auto
+      font-size: 14px
+      letter-spacing: 1px
     td
       border: none
       padding: 0

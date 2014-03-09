@@ -16,6 +16,7 @@ widgets:
 - tagcloud
 - archive
 - recent_posts
+- friends
 
 # Miscellaneous
 google_analytics:
