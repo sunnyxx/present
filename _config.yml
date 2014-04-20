@@ -19,7 +19,7 @@ widgets:
 - friends
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-50191432-1
 favicon: /favicon.png
 twitter:
 google_plus:
