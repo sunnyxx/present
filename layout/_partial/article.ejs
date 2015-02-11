@@ -12,12 +12,14 @@
     <% } %>
     <div class="article-entry" itemprop="articleBody">
       <% if (post.excerpt && index){ %>
+     <!--    >
         <%- post.excerpt %>
         <% if (theme.excerpt_link){ %>
           <p class="article-more-link">
             <a href="<%- config.root %><%- post.path %>#more"><%= theme.excerpt_link %></a>
           </p>
         <% } %>
+        <! -->
       <% } else { %>
         <%- post.content %>
       <% } %>
@@ -43,7 +45,9 @@ var jiathis_config = {data_track_clickback:'true'};
 
       原创文章，转载请注明原地址：<a href="http://blog.sunnyxx.com">blog.sunnyxx.com</a>
       <br/>
-      对博主有意思？微信搜索订阅号<b>sunnyxx</b>或扫下面的逗比狗
+      对博主有意思？新浪微博<a href="http://weibo.com/u/1364395395">@我就叫Sunny怎么了</a>
+      <br/>
+      or 微信搜索订阅号<b>sunnyxx</b>或扫下面的逗比狗
       <br/>
       <img src="http://ww4.sinaimg.cn/mw690/51530583jw1ejz2wnbt01j20by0by0tl.jpg" width="166">
 
